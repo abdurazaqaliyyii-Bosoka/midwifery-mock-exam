@@ -1,0 +1,262 @@
+[
+  {
+    "topic": "Preconception Care & Infertility",
+    "question": "Which initial care is appropriate as preconception care for a woman with multiple sexual partners?",
+    "options": [
+      "Group support and counseling at the community",
+      "Reframe sexual and gender-based violence",
+      "Screening for sexually transmitted infection",
+      "Provision of standard post-exposure prophylaxis"
+    ],
+    "answer": 2,
+    "rationale": "Multiple partners raise STI risk (infertility, PID, adverse pregnancy outcomes). Screen and treat STIs, including HIV and syphilis, and counsel on condoms. PEP is for a recent exposure; no violence is described.",
+    "reference": "FMoH Ethiopia, Preconception Care Guideline; National Guidelines for STI/Syndromic Management"
+  },
+  {
+    "topic": "Preconception Care & Infertility",
+    "question": "Which one of the following is the best intervention for drug use during preconception care?",
+    "options": [
+      "Behavioral counseling services",
+      "Community-wide screening",
+      "Protecting from lead exposure",
+      "Screening for anemia and diabetes"
+    ],
+    "answer": 0,
+    "rationale": "Substance use is addressed with screening, brief behavioral counseling and referral for treatment before pregnancy. The other options address other problems.",
+    "reference": "FMoH Ethiopia, Preconception Care Guideline; CDC Recommendations to Improve Preconception Health"
+  },
+  {
+    "topic": "Antenatal Care",
+    "question": "The midwife recognizes that focused ANC is based on which premise?",
+    "options": [
+      "Every pregnant woman is at risk for complications",
+      "Women with past complications need frequent visits",
+      "More visits for malpresentation start at 32 weeks",
+      "A pregnant woman's height determines the outcome"
+    ],
+    "answer": 0,
+    "rationale": "Focused (goal-oriented) ANC assumes every pregnancy is at risk, so all women get the same essential package. Risk-scoring could not predict who would develop complications.",
+    "reference": "FMoH Ethiopia, National Antenatal Care Guideline; WHO Antenatal Care Trial Manual"
+  },
+  {
+    "topic": "Antenatal Care",
+    "question": "A woman's gestational age by LNMP is 30 weeks, but the fundal height is 36 cm with a cephalic presentation. What is the most likely interpretation?",
+    "options": [
+      "Intrauterine growth retardation or polyhydramnios",
+      "Large for gestational age or multiple gestation",
+      "Normal; check for engagement at this gestation",
+      "Small for gestational age or oligohydramnios"
+    ],
+    "answer": 1,
+    "rationale": "After 24 weeks fundal height in cm roughly equals weeks (within 2 cm). 36 cm at 30 weeks is 6 cm too large: LGA fetus, twins, polyhydramnios, or wrong dates.",
+    "reference": "FMoH Ethiopia, National Antenatal Care Guideline; Williams Obstetrics"
+  },
+  {
+    "topic": "Hypertensive Disorders & Antepartum Hemorrhage",
+    "question": "A 28-year-old Gravida II Para I mother at 34 weeks of gestation presents with sudden severe, continuous abdominal pain and dark vaginal bleeding. Her abdomen is tense, rigid, and highly tender. Fetal heart tones are faint and irregular at 100 beats per minute. What is the most likely diagnosis?",
+    "options": [
+      "Placenta previa",
+      "Abruptio placentae",
+      "Uterine rupture",
+      "Marginal sinus rupture"
+    ],
+    "answer": 1,
+    "rationale": "Painful dark bleeding + rigid tender uterus + fetal distress = abruptio placentae. Previa causes painless bright red bleeding; uterine rupture has sudden cessation of contractions and shock; marginal sinus rupture gives mild bleeding without a rigid uterus.",
+    "reference": "FMoH Ethiopia, BEmONC Reference Manual; Williams Obstetrics (26th ed.)"
+  },
+  {
+    "topic": "Hypertensive Disorders & Antepartum Hemorrhage",
+    "question": "A multigravida mother at 38 weeks is admitted with severe preeclampsia. In the latent phase of labor she suddenly develops generalized tonic-clonic seizures. What is the immediate first-line medication to control the seizures and prevent recurrence?",
+    "options": [
+      "Diazepam 10mg IV",
+      "Phenytoin infusion",
+      "Magnesium sulfate IV/IM regimen",
+      "Phenobarbital IM"
+    ],
+    "answer": 2,
+    "rationale": "Magnesium sulfate is the drug of choice for eclampsia (4 g IV + 10 g IM, then 5 g IM every 4 hours). Check RR ≥16, patellar reflexes and urine ≥30 mL/hr before each dose. Antidote: calcium gluconate. Diazepam is second-line; phenytoin and phenobarbital are less effective.",
+    "reference": "FMoH Ethiopia, BEmONC Reference Manual; Williams Obstetrics (26th ed.)"
+  },
+  {
+    "topic": "Labor & Delivery",
+    "question": "Which of the following is NOT a component of active management of the third stage of labor?",
+    "options": [
+      "Oxytocin administration",
+      "Uterine massage",
+      "Manual compression of the uterus",
+      "Delivery of the placenta using the controlled cord traction (CCT) technique"
+    ],
+    "answer": 2,
+    "rationale": "AMTSL = oxytocin + controlled cord traction + uterine massage. Bimanual compression is a treatment for postpartum hemorrhage, not part of the routine package.",
+    "reference": "FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; WHO PPH Recommendations"
+  },
+  {
+    "topic": "Labor & Delivery",
+    "question": "Select the characteristics of normal labor.",
+    "options": [
+      "Spontaneous in onset",
+      "Occurs in the second trimester",
+      "Labor stays more than 24 hours",
+      "Needs augmentation"
+    ],
+    "answer": 0,
+    "rationale": "Normal labor: spontaneous onset, at term, low-risk woman, vertex fetus, spontaneous birth. Over 24 hours is prolonged; augmentation means poor progress.",
+    "reference": "FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; Williams Obstetrics"
+  },
+  {
+    "topic": "Postpartum Care & Mental Health",
+    "question": "A 3 weeks postpartum mother has been unable to sleep for two weeks. She has loss of interest or pleasure in most activities, declining appetite and very low energy. Her husband says she recently feels guilty for having a baby. What is the most appropriate diagnosis?",
+    "options": [
+      "Postpartum psychosis",
+      "Postpartum blues",
+      "Postpartum depression",
+      "Major depressive disorder"
+    ],
+    "answer": 2,
+    "rationale": "Symptoms lasting 2 weeks (insomnia, loss of interest, low appetite, low energy, guilt) starting after childbirth = postpartum depression. Blues are mild and settle within 2 weeks; psychosis has delusions or hallucinations.",
+    "reference": "Myles Textbook for Midwives; FMoH Ethiopia, BEmONC; WHO mhGAP Guide"
+  },
+  {
+    "topic": "Postpartum Care & Mental Health",
+    "question": "A 2 weeks postnatal mother complains about failing to lactate on her left breast. She has warmth, swelling and high tenderness on the left breast. Her left nipple is dry and cracked. What is the most appropriate diagnosis?",
+    "options": [
+      "Breast abscess",
+      "Mastitis",
+      "Normal lactating breast",
+      "Breast engorgement"
+    ],
+    "answer": 1,
+    "rationale": "Unilateral painful, warm, swollen breast with a cracked nipple = mastitis. An abscess is a fluctuant lump; engorgement is bilateral and appears around day 3 to 5.",
+    "reference": "FMoH Ethiopia, BEmONC; Myles Textbook for Midwives; WHO Mastitis guidance"
+  },
+  {
+    "topic": "Newborn Care & Pediatrics",
+    "question": "While transitioning the neonate from intrauterine to extra-uterine life, what are the signs of an abnormal transition?",
+    "options": [
+      "Have flexed arms and flexed legs",
+      "Pink skin with greasy fluid on the skin",
+      "Poor muscle tone, well extended extremities",
+      "Having facial grimace with crying"
+    ],
+    "answer": 2,
+    "rationale": "Normal newborns are flexed, pink and crying. Limp, extended limbs signal an abnormal transition and need immediate assessment and possibly resuscitation. Vernix (greasy fluid) is normal.",
+    "reference": "FMoH Ethiopia, Essential Newborn Care / Neonatal Resuscitation; Myles Textbook for Midwives"
+  },
+  {
+    "topic": "Newborn Care & Pediatrics",
+    "question": "A 3-hour home-delivered neonate presents unable to breathe. The skin, nails and umbilical cord are stained by green thick fluid. The neonate has tachypnea and the body is pale and blue. What is the most likely condition?",
+    "options": [
+      "Bacterial pneumonia",
+      "Meconium aspiration syndrome",
+      "Neonatal hypothermia",
+      "Neonatal sepsis"
+    ],
+    "answer": 1,
+    "rationale": "Meconium-stained skin, nails and cord with early respiratory distress and cyanosis = meconium aspiration syndrome. Pneumonia, hypothermia and sepsis do not explain the meconium staining.",
+    "reference": "FMoH Ethiopia, BEmONC; Nelson Textbook of Pediatrics"
+  },
+  {
+    "topic": "Family Planning, STI/HIV & GBV",
+    "question": "A 21-year-old female student reports unprotected sexual intercourse two days ago. She has no plan for pregnancy and no regular sexual intercourse. What is the appropriate contraceptive method to prevent pregnancy now?",
+    "options": [
+      "Injectable contraceptives",
+      "Sinoplant",
+      "Implanon",
+      "Emergency contraceptives"
+    ],
+    "answer": 3,
+    "rationale": "Unprotected sex within 72 hours calls for emergency contraception (levonorgestrel 1.5 mg, or a copper IUD within 5 days). Injectables and implants are regular methods and can be started afterwards.",
+    "reference": "FMoH Ethiopia, National Family Planning Guideline; WHO/JHU Global Handbook for Providers"
+  },
+  {
+    "topic": "Family Planning, STI/HIV & GBV",
+    "question": "A 25-year-old mother decides to use combined oral contraception after detailed counseling. What is the priority condition the provider must assure before giving the method?",
+    "options": [
+      "Pelvic exam screening result is normal",
+      "Cervical screening result is normal",
+      "Any blood test result is normal",
+      "Blood pressure is normal"
+    ],
+    "answer": 3,
+    "rationale": "Blood pressure is the key screening step because estrogen raises BP and stroke risk. Pelvic exam, cervical screening and blood tests are not required before COCs.",
+    "reference": "WHO Medical Eligibility Criteria for Contraceptive Use; FMoH Ethiopia, National Family Planning Guideline"
+  },
+  {
+    "topic": "Abortion & Gynecology",
+    "question": "Inevitable abortion is diagnosed when you note which of the following features?",
+    "options": [
+      "Cervical effacement, cervical dilation and ruptured membranes",
+      "Slight bleeding, slight cervical effacement and intact membranes",
+      "Closed cervix, cervical dilation and intact membranes",
+      "Slight bleeding with or without cramping, and closed cervix"
+    ],
+    "answer": 0,
+    "rationale": "Inevitable abortion = bleeding with an open (dilating or effaced) cervix, membranes possibly ruptured, products not yet expelled. A closed cervix with bleeding is a threatened abortion.",
+    "reference": "FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; WHO Managing Complications in Pregnancy and Childbirth"
+  },
+  {
+    "topic": "Abortion & Gynecology",
+    "question": "Which of the following is NOT a sign of ectopic pregnancy?",
+    "options": [
+      "Adnexal mass",
+      "Hemorrhagic shock",
+      "Uterine size larger than gestational age",
+      "Abdominal tenderness"
+    ],
+    "answer": 2,
+    "rationale": "In ectopic pregnancy the uterus is normal or slightly enlarged and smaller than expected for dates. Adnexal mass, tenderness and shock after rupture are features.",
+    "reference": "FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; Williams Obstetrics"
+  },
+  {
+    "topic": "Ethics, Rights & Counseling",
+    "question": "Midwives should be:",
+    "options": [
+      "Compassionate",
+      "Disrespectful",
+      "Inactive listeners",
+      "Pessimists"
+    ],
+    "answer": 0,
+    "rationale": "Midwifery care is built on compassion, respect, empathy and active listening.",
+    "reference": "FMoH Ethiopia, Professional Ethics and Jurisprudence module; ICM Code of Ethics for Midwives"
+  },
+  {
+    "topic": "Ethics, Rights & Counseling",
+    "question": "What does it mean when it is said a midwife ensures informed voluntary decision-making?",
+    "options": [
+      "Decides for the client based on the wants of the client",
+      "Makes counseling client-centered by tailoring information and helping to decide",
+      "Asks what the choice of the client is and implements it",
+      "Weighs the consequence of each option suggested by taking him/herself in place of the client"
+    ],
+    "answer": 1,
+    "rationale": "The client makes a free choice after receiving complete, understandable information. The midwife tailors information, checks understanding and helps the client decide, without deciding for her or imposing her own values.",
+    "reference": "FMoH Ethiopia, National Guideline for Family Planning Services; Code of Professional Ethics"
+  },
+  {
+    "topic": "Health Management, Research & Epidemiology",
+    "question": "Determining the long- and short-term objectives of the institution or unit and the actions needed to achieve them is:",
+    "options": [
+      "Organizing",
+      "Planning",
+      "Staffing",
+      "Directing"
+    ],
+    "answer": 1,
+    "rationale": "Planning sets objectives and decides the actions to achieve them. Organizing arranges structure, staffing assigns people, directing guides and motivates.",
+    "reference": "FMoH Ethiopia / HEAT, Health Service Management and Leadership module"
+  },
+  {
+    "topic": "Health Management, Research & Epidemiology",
+    "question": "The degree to which a stated objective of an organization is being achieved is known as:",
+    "options": [
+      "Economy",
+      "Effectiveness",
+      "Principles",
+      "Efficiency"
+    ],
+    "answer": 1,
+    "rationale": "Effectiveness = extent to which objectives are achieved (doing the right things). Efficiency = outputs relative to inputs; economy = low cost of inputs.",
+    "reference": "FMoH Ethiopia / HEAT, Health Service Management and Leadership module"
+  }
+]
