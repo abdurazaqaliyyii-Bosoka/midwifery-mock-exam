@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BSc Midwifery Mock Exam – 2017 E.C. Mid-Year Exit Exam (Free Sample)</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#14182b;--mute:#5b6380;--line:#e1e4f0;--brand:#4f46e5;--brand2:#3730a3;--ok:#0f9d58;--okbg:#e6f6ee;--bad:#d93025;--badbg:#fdeceb;--warn:#d97706}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1120;--card:#171b30;--ink:#eef0fb;--mute:#9aa3c7;--line:#2a3050;--brand:#8b85ff;--brand2:#a9a4ff;--ok:#3ddc84;--okbg:#10301f;--bad:#ff6b60;--badbg:#3a1815;--warn:#fbbf24}}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+h1{font-size:1.7rem;line-height:1.2;margin:.2em 0 .4em}
+h2{font-size:1.15rem;margin:0 0 .6em}
+.tag{display:inline-block;background:var(--brand);color:#fff;border-radius:99px;padding:3px 12px;font-size:.8rem;font-weight:600}
+.mute{color:var(--mute)}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.stats div{flex:1 1 90px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stats b{display:block;font-size:1.3rem}
+button{font:inherit;cursor:pointer;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 18px;font-weight:600}
+button:focus-visible,.opt:focus-within{outline:3px solid var(--brand);outline-offset:2px}
+.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+.primary:hover{background:var(--brand2)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.timer{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.2rem;padding:6px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line)}
+.timer.low{color:var(--bad);border-color:var(--bad)}
+.prog{height:6px;background:var(--line);border-radius:9px;margin-top:8px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--brand);transition:width .25s}
+.topic{font-size:.8rem;color:var(--mute);font-weight:600;margin-bottom:6px}
+.q{font-size:1.1rem;font-weight:600;margin:0 0 14px}
+.opt{display:flex;gap:12px;align-items:flex-start;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0;cursor:pointer}
+.opt:hover{border-color:var(--brand)}
+.opt input{margin-top:5px;accent-color:var(--brand)}
+.opt.sel{border-color:var(--brand);background:color-mix(in srgb,var(--brand) 9%,transparent)}
+.opt.ok{border-color:var(--ok);background:var(--okbg)}
+.opt.bad{border-color:var(--bad);background:var(--badbg)}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:16px}
+.dots{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.dots button{width:36px;height:36px;padding:0;font-size:.85rem}
+.dots .ans{background:var(--brand);color:#fff;border-color:var(--brand)}
+.dots .cur{outline:3px solid var(--warn);outline-offset:1px}
+.score{text-align:center}
+.big{font-size:3.4rem;font-weight:800;line-height:1}
+.note{background:var(--bg);border-left:4px solid var(--brand);border-radius:8px;padding:10px 14px;margin-top:10px;font-size:.93rem}
+.ref{font-size:.8rem;color:var(--mute);margin-top:8px}
+.verdict{display:inline-block;padding:3px 10px;border-radius:99px;font-size:.8rem;font-weight:700}
+.verdict.ok{background:var(--okbg);color:var(--ok)}.verdict.bad{background:var(--badbg);color:var(--bad)}
+.cta{border:2px solid var(--warn)}
+.hide{display:none}
+@media(max-width:480px){.wrap{padding:10px}.card{padding:16px}h1{font-size:1.4rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section id="start" class="card">
+  <span class="tag">Free sample · Previous exam questions</span>
+  <h1>BSc Midwifery Mock Exit Exam</h1>
+  <p>These questions are provided for your practice and preparation for the National Exit Exam. Use them as a timed self-assessment to review important concepts, test your knowledge, and strengthen your exam readiness.</p>
+  <div class="stats">
+    <div><b>20</b><span class="mute">Questions</span></div>
+    <div><b>30 min</b><span class="mute">Time limit</span></div>
+    <div><b>Instant</b><span class="mute">Results</span></div>
+  </div>
+  <p class="mute">Your answers are saved as you go. The exam submits automatically when time runs out. Don't refresh mid-exam.</p>
+  <button class="primary" id="go">Start exam</button>
+</section>
+
+<section id="exam" class="hide">
+  <div class="top">
+    <div class="bar"><b id="count">Question 1 of 20</b><span class="timer" id="timer">30:00</span></div>
+    <div class="prog"><i id="pb"></i></div>
+  </div>
+  <div class="card">
+    <div class="topic" id="topic"></div>
+    <p class="q" id="qtext"></p>
+    <div id="opts" role="radiogroup" aria-label="Answer options"></div>
+    <div class="nav">
+      <button id="prev">Previous</button>
+      <button class="primary" id="next">Next</button>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+  <button id="finish">Submit exam</button>
+</section>
+
+<section id="result" class="hide">
+  <div class="card score">
+    <div class="mute">Your score</div>
+    <div class="big" id="sc"></div>
+    <p id="msg" style="font-weight:600"></p>
+    <p class="mute" id="sub"></p>
+    <button class="primary" id="retry">Retake exam</button>
+  </div>
+  <div class="card cta">
+    <h2>Want more practice?</h2>
+    <p>This was a free sample of 20 questions. The full edition has 150 questions, all previous Exit Exam questions and models from 2016 E.C. to 2018 E.C., each with detailed rationales and a why-the-other-options-are-wrong analysis.</p>
+    <p><b>Order on Telegram: <a href="https://t.me/abdur66" target="_blank" rel="noopener">@abdur66</a></b></p>
+  </div>
+  <h2>Review your answers</h2>
+  <div id="review"></div>
+</section>
+
+<p class="ref" style="text-align:center">© 2026 Abdurezak Aliyi Hamid · Exit Exam Academy. Practice questions from the 2017 E.C. Mid-Year Exit Exam. Not an official publication of the Ministry of Health or any examination body. Confirm clinical doses and protocols against the latest national guideline.</p>
+</div>
+
+<script>
+// Question data: t=topic, q=question, o=options, a=correct index, r=explanation, f=reference
+const Q=[
+{t:"Preconception Care & Infertility",q:"Which initial care is appropriate as preconception care for a woman with multiple sexual partners?",o:["Group support and counseling at the community","Reframe sexual and gender-based violence","Screening for sexually transmitted infection","Provision of standard post-exposure prophylaxis"],a:2,r:"Multiple partners raise STI risk (infertility, PID, adverse pregnancy outcomes). Screen and treat STIs, including HIV and syphilis, and counsel on condoms. PEP is for a recent exposure; no violence is described.",f:"FMoH Ethiopia, Preconception Care Guideline; National Guidelines for STI/Syndromic Management"},
+{t:"Preconception Care & Infertility",q:"Which one of the following is the best intervention for drug use during preconception care?",o:["Behavioral counseling services","Community-wide screening","Protecting from lead exposure","Screening for anemia and diabetes"],a:0,r:"Substance use is addressed with screening, brief behavioral counseling and referral for treatment before pregnancy. The other options address other problems.",f:"FMoH Ethiopia, Preconception Care Guideline; CDC Recommendations to Improve Preconception Health"},
+{t:"Antenatal Care",q:"The midwife recognizes that focused ANC is based on which premise?",o:["Every pregnant woman is at risk for complications","Women with past complications need frequent visits","More visits for malpresentation start at 32 weeks","A pregnant woman's height determines the outcome"],a:0,r:"Focused (goal-oriented) ANC assumes every pregnancy is at risk, so all women get the same essential package. Risk-scoring could not predict who would develop complications.",f:"FMoH Ethiopia, National Antenatal Care Guideline; WHO Antenatal Care Trial Manual"},
+{t:"Antenatal Care",q:"A woman's gestational age by LNMP is 30 weeks, but the fundal height is 36 cm with a cephalic presentation. What is the most likely interpretation?",o:["Intrauterine growth retardation or polyhydramnios","Large for gestational age or multiple gestation","Normal; check for engagement at this gestation","Small for gestational age or oligohydramnios"],a:1,r:"After 24 weeks fundal height in cm roughly equals weeks (within 2 cm). 36 cm at 30 weeks is 6 cm too large: LGA fetus, twins, polyhydramnios, or wrong dates.",f:"FMoH Ethiopia, National Antenatal Care Guideline; Williams Obstetrics"},
+{t:"Hypertensive Disorders & Antepartum Hemorrhage",q:"A 28-year-old Gravida II Para I mother at 34 weeks of gestation presents with sudden severe, continuous abdominal pain and dark vaginal bleeding. Her abdomen is tense, rigid, and highly tender. Fetal heart tones are faint and irregular at 100 beats per minute. What is the most likely diagnosis?",o:["Placenta previa","Abruptio placentae","Uterine rupture","Marginal sinus rupture"],a:1,r:"Painful dark bleeding + rigid tender uterus + fetal distress = abruptio placentae. Previa causes painless bright red bleeding; uterine rupture has sudden cessation of contractions and shock; marginal sinus rupture gives mild bleeding without a rigid uterus.",f:"FMoH Ethiopia, BEmONC Reference Manual; Williams Obstetrics (26th ed.)"},
+{t:"Hypertensive Disorders & Antepartum Hemorrhage",q:"A multigravida mother at 38 weeks is admitted with severe preeclampsia. In the latent phase of labor she suddenly develops generalized tonic-clonic seizures. What is the immediate first-line medication to control the seizures and prevent recurrence?",o:["Diazepam 10mg IV","Phenytoin infusion","Magnesium sulfate IV/IM regimen","Phenobarbital IM"],a:2,r:"Magnesium sulfate is the drug of choice for eclampsia (4 g IV + 10 g IM, then 5 g IM every 4 hours). Check RR ≥16, patellar reflexes and urine ≥30 mL/hr before each dose. Antidote: calcium gluconate. Diazepam is second-line; phenytoin and phenobarbital are less effective.",f:"FMoH Ethiopia, BEmONC Reference Manual; Williams Obstetrics (26th ed.)"},
+{t:"Labor & Delivery",q:"Which of the following is NOT a component of active management of the third stage of labor?",o:["Oxytocin administration","Uterine massage","Manual compression of the uterus","Delivery of the placenta using the controlled cord traction (CCT) technique"],a:2,r:"AMTSL = oxytocin + controlled cord traction + uterine massage. Bimanual compression is a treatment for postpartum hemorrhage, not part of the routine package.",f:"FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; WHO PPH Recommendations"},
+{t:"Labor & Delivery",q:"Select the characteristics of normal labor.",o:["Spontaneous in onset","Occurs in the second trimester","Labor stays more than 24 hours","Needs augmentation"],a:0,r:"Normal labor: spontaneous onset, at term, low-risk woman, vertex fetus, spontaneous birth. Over 24 hours is prolonged; augmentation means poor progress.",f:"FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; Williams Obstetrics"},
+{t:"Postpartum Care & Mental Health",q:"A 3 weeks postpartum mother has been unable to sleep for two weeks. She has loss of interest or pleasure in most activities, declining appetite and very low energy. Her husband says she recently feels guilty for having a baby. What is the most appropriate diagnosis?",o:["Postpartum psychosis","Postpartum blues","Postpartum depression","Major depressive disorder"],a:2,r:"Symptoms lasting 2 weeks (insomnia, loss of interest, low appetite, low energy, guilt) starting after childbirth = postpartum depression. Blues are mild and settle within 2 weeks; psychosis has delusions or hallucinations.",f:"Myles Textbook for Midwives; FMoH Ethiopia, BEmONC; WHO mhGAP Guide"},
+{t:"Postpartum Care & Mental Health",q:"A 2 weeks postnatal mother complains about failing to lactate on her left breast. She has warmth, swelling and high tenderness on the left breast. Her left nipple is dry and cracked. What is the most appropriate diagnosis?",o:["Breast abscess","Mastitis","Normal lactating breast","Breast engorgement"],a:1,r:"Unilateral painful, warm, swollen breast with a cracked nipple = mastitis. An abscess is a fluctuant lump; engorgement is bilateral and appears around day 3 to 5.",f:"FMoH Ethiopia, BEmONC; Myles Textbook for Midwives; WHO Mastitis guidance"},
+{t:"Newborn Care & Pediatrics",q:"While transitioning the neonate from intrauterine to extra-uterine life, what are the signs of an abnormal transition?",o:["Have flexed arms and flexed legs","Pink skin with greasy fluid on the skin","Poor muscle tone, well extended extremities","Having facial grimace with crying"],a:2,r:"Normal newborns are flexed, pink and crying. Limp, extended limbs signal an abnormal transition and need immediate assessment and possibly resuscitation. Vernix (greasy fluid) is normal.",f:"FMoH Ethiopia, Essential Newborn Care / Neonatal Resuscitation; Myles Textbook for Midwives"},
+{t:"Newborn Care & Pediatrics",q:"A 3-hour home-delivered neonate presents unable to breathe. The skin, nails and umbilical cord are stained by green thick fluid. The neonate has tachypnea and the body is pale and blue. What is the most likely condition?",o:["Bacterial pneumonia","Meconium aspiration syndrome","Neonatal hypothermia","Neonatal sepsis"],a:1,r:"Meconium-stained skin, nails and cord with early respiratory distress and cyanosis = meconium aspiration syndrome. Pneumonia, hypothermia and sepsis do not explain the meconium staining.",f:"FMoH Ethiopia, BEmONC; Nelson Textbook of Pediatrics"},
+{t:"Family Planning, STI/HIV & GBV",q:"A 21-year-old female student reports unprotected sexual intercourse two days ago. She has no plan for pregnancy and no regular sexual intercourse. What is the appropriate contraceptive method to prevent pregnancy now?",o:["Injectable contraceptives","Sinoplant","Implanon","Emergency contraceptives"],a:3,r:"Unprotected sex within 72 hours calls for emergency contraception (levonorgestrel 1.5 mg, or a copper IUD within 5 days). Injectables and implants are regular methods and can be started afterwards.",f:"FMoH Ethiopia, National Family Planning Guideline; WHO/JHU Global Handbook for Providers"},
+{t:"Family Planning, STI/HIV & GBV",q:"A 25-year-old mother decides to use combined oral contraception after detailed counseling. What is the priority condition the provider must assure before giving the method?",o:["Pelvic exam screening result is normal","Cervical screening result is normal","Any blood test result is normal","Blood pressure is normal"],a:3,r:"Blood pressure is the key screening step because estrogen raises BP and stroke risk. Pelvic exam, cervical screening and blood tests are not required before COCs.",f:"WHO Medical Eligibility Criteria for Contraceptive Use; FMoH Ethiopia, National Family Planning Guideline"},
+{t:"Abortion & Gynecology",q:"Inevitable abortion is diagnosed when you note which of the following features?",o:["Cervical effacement, cervical dilation and ruptured membranes","Slight bleeding, slight cervical effacement and intact membranes","Closed cervix, cervical dilation and intact membranes","Slight bleeding with or without cramping, and closed cervix"],a:0,r:"Inevitable abortion = bleeding with an open (dilating or effaced) cervix, membranes possibly ruptured, products not yet expelled. A closed cervix with bleeding is a threatened abortion.",f:"FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; WHO Managing Complications in Pregnancy and Childbirth"},
+{t:"Abortion & Gynecology",q:"Which of the following is NOT a sign of ectopic pregnancy?",o:["Adnexal mass","Hemorrhagic shock","Uterine size larger than gestational age","Abdominal tenderness"],a:2,r:"In ectopic pregnancy the uterus is normal or slightly enlarged and smaller than expected for dates. Adnexal mass, tenderness and shock after rupture are features.",f:"FMoH Ethiopia, Management Protocol on Selected Obstetrics Topics; Williams Obstetrics"},
+{t:"Ethics, Rights & Counseling",q:"Midwives should be:",o:["Compassionate","Disrespectful","Inactive listeners","Pessimists"],a:0,r:"Midwifery care is built on compassion, respect, empathy and active listening.",f:"FMoH Ethiopia, Professional Ethics and Jurisprudence module; ICM Code of Ethics for Midwives"},
+{t:"Ethics, Rights & Counseling",q:"What does it mean when it is said a midwife ensures informed voluntary decision-making?",o:["Decides for the client based on the wants of the client","Makes counseling client-centered by tailoring information and helping to decide","Asks what the choice of the client is and implements it","Weighs the consequence of each option suggested by taking him/herself in place of the client"],a:1,r:"The client makes a free choice after receiving complete, understandable information. The midwife tailors information, checks understanding and helps the client decide, without deciding for her or imposing her own values.",f:"FMoH Ethiopia, National Guideline for Family Planning Services; Code of Professional Ethics"},
+{t:"Health Management, Research & Epidemiology",q:"Determining the long- and short-term objectives of the institution or unit and the actions needed to achieve them is:",o:["Organizing","Planning","Staffing","Directing"],a:1,r:"Planning sets objectives and decides the actions to achieve them. Organizing arranges structure, staffing assigns people, directing guides and motivates.",f:"FMoH Ethiopia / HEAT, Health Service Management and Leadership module"},
+{t:"Health Management, Research & Epidemiology",q:"The degree to which a stated objective of an organization is being achieved is known as:",o:["Economy","Effectiveness","Principles","Efficiency"],a:1,r:"Effectiveness = extent to which objectives are achieved (doing the right things). Efficiency = outputs relative to inputs; economy = low cost of inputs.",f:"FMoH Ethiopia / HEAT, Health Service Management and Leadership module"}
+];
+
+const MINUTES=30, KEY="mw2017_mock_v1";
+const $=id=>document.getElementById(id), L="ABCD";
+let ans, cur, endAt, tick;
+
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify({ans,cur,endAt}))}catch(e){}};
+const load=()=>{try{return JSON.parse(localStorage.getItem(KEY))}catch(e){return null}};
+const clear=()=>{try{localStorage.removeItem(KEY)}catch(e){}};
+const show=id=>["start","exam","result"].forEach(s=>$(s).classList.toggle("hide",s!==id));
+
+function begin(resume){
+  if(resume){ans=resume.ans;cur=resume.cur;endAt=resume.endAt}
+  else{ans=Array(Q.length).fill(null);cur=0;endAt=Date.now()+MINUTES*60000}
+  show("exam");render();clearInterval(tick);tick=setInterval(clock,500);clock();save();
+}
+function clock(){
+  const s=Math.max(0,Math.round((endAt-Date.now())/1000));
+  $("timer").textContent=String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");
+  $("timer").classList.toggle("low",s<=300);
+  if(s===0)submit(true);
+}
+function render(){
+  const q=Q[cur];
+  $("count").textContent="Question "+(cur+1)+" of "+Q.length;
+  $("pb").style.width=((cur+1)/Q.length*100)+"%";
+  $("topic").textContent=q.t;$("qtext").textContent=q.q;
+  $("opts").innerHTML="";
+  q.o.forEach((t,i)=>{
+    const lb=document.createElement("label");lb.className="opt"+(ans[cur]===i?" sel":"");
+    lb.innerHTML='<input type="radio" name="o" '+(ans[cur]===i?"checked":"")+'><span><b>'+L[i]+'.</b> </span>';
+    lb.lastChild.append(t);
+    lb.querySelector("input").onchange=()=>{ans[cur]=i;save();render()};
+    $("opts").append(lb);
+  });
+  $("prev").disabled=cur===0;
+  $("next").textContent=cur===Q.length-1?"Review & submit":"Next";
+  $("dots").innerHTML="";
+  Q.forEach((_,i)=>{const b=document.createElement("button");b.textContent=i+1;
+    b.setAttribute("aria-label","Go to question "+(i+1));
+    b.className=(ans[i]!==null?"ans ":"")+(i===cur?"cur":"");
+    b.onclick=()=>{cur=i;save();render()};$("dots").append(b)});
+}
+function submit(auto){
+  const left=ans.filter(a=>a===null).length;
+  if(!auto&&left&&!window._warned){window._warned=true;$("finish").textContent=left+" unanswered. Tap again to submit";return;}
+  window._warned=false;$("finish").textContent="Submit exam";
+  clearInterval(tick);clear();results();
+}
+function results(){
+  let c=0;Q.forEach((q,i)=>{if(ans[i]===q.a)c++});
+  const p=Math.round(c/Q.length*100);
+  $("sc").textContent=c+" / "+Q.length;
+  $("msg").textContent=c>=17?"Excellent work!":c>=13?"Good, review the questions you missed.":"Keep going: revise the weak topics and retry.";
+  $("sub").textContent=p+"% correct";
+  const rv=$("review");rv.innerHTML="";
+  Q.forEach((q,i)=>{
+    const ok=ans[i]===q.a,d=document.createElement("div");d.className="card";
+    let h='<div class="topic">Q'+(i+1)+' · '+q.t+' · <span class="verdict '+(ok?"ok":"bad")+'">'+(ans[i]===null?"Not answered":ok?"Correct":"Wrong")+'</span></div><p class="q"></p><div class="o"></div><div class="note"></div><div class="ref"></div>';
+    d.innerHTML=h;d.querySelector(".q").textContent=q.q;
+    q.o.forEach((t,j)=>{const o=document.createElement("div");
+      o.className="opt "+(j===q.a?"ok":j===ans[i]?"bad":"");
+      o.textContent=L[j]+". "+t+(j===q.a?"  ✓ correct":j===ans[i]?"  ✗ your answer":"");
+      d.querySelector(".o").append(o)});
+    d.querySelector(".note").textContent=q.r;
+    d.querySelector(".ref").textContent="Source: 2017 E.C. Mid-Year Exit Exam · Reference: "+q.f;
+    rv.append(d);
+  });
+  show("result");window.scrollTo(0,0);
+}
+
+$("go").onclick=()=>begin();
+$("prev").onclick=()=>{if(cur>0){cur--;save();render()}};
+$("next").onclick=()=>{if(cur<Q.length-1){cur++;save();render()}else submit(false)};
+$("finish").onclick=()=>submit(false);
+$("retry").onclick=()=>{show("start");window.scrollTo(0,0)};
+
+// Resume an unfinished exam after a refresh
+const r=load();
+if(r&&r.endAt>Date.now())begin(r);else clear();
+</script>
+</body>
+</html>
